@@ -3,7 +3,7 @@
         <div class="p-3 flex justify-between fixed z-50 w-full bg-white">
             <div>
                 <p class="font-bold text-sky-950 text-4xl font-sans"><span class="relative after:absolute after:content-[''] after:h-1.5 after:w-full after:bg-sky-500 after:bottom-0 after:left-0">M</span>yname</p>
-            <p class="text-sky-400 mt-3 font-light">Some place</p>
+            <p class="text-sky-400 mt-3 font-light">my city</p>
             </div>
             <button><Icon name="material-symbols:menu" size="2em"></Icon></button>
         </div>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="bg-white">
-            <div class="py-16 px-10 grid gap-y-10 gap-x-4 grid-cols-1 text-3xl text-center text-balance">
+            <div class="py-16 md:py-40 px-10 grid gap-y-10 gap-x-4 grid-cols-1 md:grid-cols-3 text-3xl text-center text-balance">
                 <p>$45M <br> in Total Sales Value</p>
                 <p>Rising Star <br> <span class="text-sm">Canterbury top Rising Star 2019-2020</span></p>
                 <p>87 <br> <span class="text-sm">Properties Sold</span></p>
@@ -33,15 +33,15 @@
             <div class="bg-black/50 absolute inset-0  text-center text-balance  py-40 px-5 grid place-items-center">
                 <div>
                     <p class="text-4xl leading-loose text-white"><span>What is your property</span><br><span class="font-handwritten text-sky-500 text-6xl">Worth?</span></p>
-                <p class="text-xl text-white"><span class="font-bold">Looking to buy or sell a property?</span> Enter your address below for an instant Digital Property Appraisal highlighting the market value including recent sales, rental history, suburb report and more.</p>
-                <div class="mt-10 grid grid-cols-1 gap-2">
-                    <input type="text" class="rounded px-2 py-4" placeholder="Enter property address"><button class="bg-sky-500 text-white px-4 py-4 rounded">Get Property Appraisal</button>
+                <p class="text-xl text-white"><span class="font-bold">Looking to buy or sell a property?</span> Get in touch for a property appraisal highlighting the market value including recent sales, rental history, suburb report and more.</p>
+                <div class="mt-10 flex justify-center">
+                    <button class="bg-sky-500 text-white px-4 py-4 md:py-4 rounded min-w-max">Get Property Appraisal</button>
                 </div>
                 </div>
                 
             </div>
         </div>
-        <footer class="bg-blue-950 text-white">
+        <footer class="bg-gray-800 text-white">
             
             <div class="py-10 grid grid-cols-1">
                 <p class="mx-auto font-bold text-white text-4xl font-sans"><span class="relative after:absolute after:content-[''] after:h-1.5 after:w-full after:bg-sky-500 after:bottom-0 after:left-0">M</span>yname</p>
@@ -61,9 +61,9 @@
 </script>
 
 <style lang="postcss" scoped>
-@theme {
+/* @theme {
     --font-display: "Fira Sans", "sans-serif"
-}
+} */
 .bg-img {
     background-position: center;
     background-repeat: no-repeat;

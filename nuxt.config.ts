@@ -17,6 +17,9 @@ export default defineNuxtConfig({
   },
   tailwindcss: {
     config: {
+        plugins: [
+            require('@tailwindcss/container-queries'),
+        ],
       theme: {
         extend: {
             fontFamily: {
@@ -36,6 +39,7 @@ export default defineNuxtConfig({
                 yellow: colors.amber,
                 orange: colors.orange,
               },
+              
         }
       }
     }
