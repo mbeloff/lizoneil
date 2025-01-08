@@ -2,7 +2,7 @@
     <div class="text-sky-950">
         <div class="p-4 flex justify-between fixed z-50 w-full bg-white items-center">
             <div>
-                <p class="font-bold text-sky-950 text-4xl font-sans"><span class="relative after:absolute after:content-[''] after:h-1.5 after:w-full after:bg-sky-500 after:bottom-0 after:left-0">M</span>yname</p>
+                <p class="font-bold text-sky-950 text-4xl font-sans"><span class="relative after:absolute after:content-[''] after:h-1 after:w-full after:bg-sky-500 after:bottom-px after:left-0">M</span>yname</p>
             <p class="text-sky-400 mt-3 font-light">my city</p>
             </div>
             <!-- <button><Icon name="material-symbols:menu" size="2em"></Icon></button> -->
@@ -52,7 +52,7 @@
         <footer class="bg-gray-800 text-white">
             
             <div class="py-10 grid grid-cols-1">
-                <p class="mx-auto font-bold text-white text-4xl font-sans"><span class="relative after:absolute after:content-[''] after:h-1.5 after:w-full after:bg-sky-500 after:bottom-0 after:left-0">M</span>yname</p>
+                <p class="mx-auto font-bold text-white text-4xl font-sans"><span class="relative after:absolute after:content-[''] after:h-1 after:w-full after:bg-sky-500 after:bottom-px after:left-0">M</span>yname</p>
             <div class="grid grid-cols-3 max-w-max gap-4 mx-auto mt-4 ">
                 <Icon class="hover:text-blue-500" name="mdi:facebook-box" size="1.25em"></Icon>
                 <Icon class="hover:text-blue-500" name="mdi:instagram" size="1.25em"></Icon>
