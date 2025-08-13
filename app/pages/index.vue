@@ -3,15 +3,21 @@
     <div
       class="p-4 flex justify-between fixed z-50 w-full bg-white items-center"
     >
-      <div class="flex items-center gap-2">
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-2">
         <!-- <p class="font-bold text-sky-950 text-4xl font-sans">
           <span
             class="relative after:absolute after:content-[''] after:h-1 after:w-full after:bg-sky-500 after:bottom-px after:left-0"
             >H</span
           >arcourts
         </p> -->
-        <img src="/harcourts-international-logo.svg" alt="logo" class="w-40" />
-        <p class="text-sky-400 font-light text-4xl mb-2">my city</p>
+        <img
+          src="/harcourts-international-logo.svg"
+          alt="logo"
+          class="w-40 min-w-40"
+        />
+        <p class="text-sky-400 font-light text-4xl mb-4 -mt-2 md:mt-0">
+          my city
+        </p>
       </div>
       <!-- <button><Icon name="material-symbols:menu" size="2em"></Icon></button> -->
       <div class="invisible md:visible flex gap-4 items-center h-full">
@@ -40,7 +46,7 @@
             <p class="text-xl lg:text-2xl font-light">Driven by Results.</p>
             <div class="flex text-sm lg:text-base font-light text mt-10 gap-2">
               <span>Licensed Sales Consultant</span><span>|</span
-              ><span>Some Company</span>
+              ><span>Harcourts my city</span>
             </div>
           </div>
 
